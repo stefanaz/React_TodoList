@@ -76,6 +76,7 @@ const TemporaryDrawer = (props) => {
         <React.Fragment>
           <Button onClick={toggleDrawer(menu.side, true)}>{menu.side}</Button>
           <Drawer
+            variant="temporary"
             anchor={menu.side}
             open={menu.open}
             onClose={toggleDrawer(menu.side, false)}

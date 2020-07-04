@@ -2,7 +2,9 @@
 import '../App.css';
 import Header from '../components/layout/Header'
 import Footer from '../components/layout/Footer'
-import LeftMenu from '../components/MenuComponent'
+import MenuComponent from '../components/MenuComponent'
+import Todo from '../components/noRedux/Todo'
+import TodoWithRedux from '../components/withRedux/TodoWithRedux'
 
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import React, { useState } from "react";
@@ -18,16 +20,23 @@ export default function Dashboard() {
   });
 
   const handleThemeChange = () => {
-    setDarkState(!darkState);
+    setDarkState(darkState);
   };
   
+  
   return (
-    <ThemeProvider theme={darkTheme}>
-        <Header />
-        <LeftMenu menu={{side: 'left', open: true}}/>
-        <LeftMenu menu={{side: 'right', open: true}}/>
-        <Footer />
-    </ThemeProvider>
+    <React.Fragment>
+      <ThemeProvider theme={darkTheme}>
+          <Header />
+            {/* <MenuComponent menu={{side: 'left', open: true}}/> */}
+            {/* <MenuComponent menu={{side: 'right', open: true}}/> */}
+          <div style={{margin: '10px', marginTop: '40px'}}> <h3>No REDUX: </h3></div>
+          <Todo/>
+          <div style={{margin: '10px', marginTop: '40px'}}> <h3>With REDUX now: </h3></div>
+          <TodoWithRedux/>
+          <Footer />
+      </ThemeProvider>
+    </React.Fragment>
   );
 }
 
