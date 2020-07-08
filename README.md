@@ -1,3 +1,78 @@
+# Project description
+
+Hey here! This is my test react project to implement all learned skills.
+This is a simple TODO-list with **no persistent state**.
+
+The first part was aimed **to create React** components while the second one was done in order **to learn Redux** and its integration with React components.
+Also at the end of the page one can see Form example which comes from test with **Material UI** for React.
+
+### The TODO-list (with Redux part) **is able to do**:
+
+- **list** todo items from initstate (hard-coded for now)
+- **mark** todo-item as done/undone, change its style
+- **remove** todo-item from the list
+- **add** a new todo-item to the list
+
+### The project includes next **technics/packages**:
+
+- **React Js project basic structure**
+  - state
+  - props
+  - events, onChange()
+  - Live Cycles Hooks (were removed after react hooks have been learnt)
+    - componentDidMount
+    - componentDidUpdate
+    - shouldComponentUpdate
+    - getDerivedStatedFromProps
+    - getSnapshotBeforeUpdate
+    - componentWillUnmount
+    - componentDidCatch
+  - useEffect() react hooks
+  - styled Components
+- **Redux basic structure**
+
+  - useState(), useDispatch(), createStore()
+  - special code structure for actions/reducers/types/views
+  - state and immutability
+  - combine reducers
+  - middleware, thunk
+  - containers & components
+
+- **Unit tests with Jest**
+
+  - toBeTruthy()
+  - toBeInTheDocument()
+
+- **Material UI** components:
+  - Input, Select, MenuItem
+  - Icons
+  - BottomNavigation, BottomNavigationAction
+  - AppBar, Toolbar, Typography, Button, IconButton
+  - Drawer, Button, List, Divider, ListItem, ListItemIcon, ListItemText
+
+As learning material were used mainly Youtube videos and in some cases technical documentation.
+
+### All learned sources are stated below (**as Links** to YouTube or webpages):
+
+- [React Crash course, part1](https://www.youtube.com/watch?v=pgAvVxowaYU)
+- [React Crash course, part2](https://www.youtube.com/watch?v=sBws8MSXN7A)
+- [React Refs](https://www.youtube.com/watch?v=FXa9mMTKOu8)
+- [Redux, part1](https://www.youtube.com/watch?v=93p3LxR9xfM)
+- [Redux, part2](https://www.youtube.com/watch?v=qrsle5quS7A&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_)
+- [React Hooks](https://www.youtube.com/watch?v=-MlNBTSg_Ww)
+- [Life Cycles](https://www.youtube.com/watch?v=m_mtV4YaI8c)
+- [Dependency injectionm, part1](https://www.youtube.com/watch?v=0X1Ns2NRfks)
+- [Dependency injectionm, part2](https://www.youtube.com/watch?v=sD94szvFqGw)
+- [Jest/Unit tests in JS](https://www.youtube.com/watch?v=7r4xVDI2vho)
+- [Styled-components](https://www.youtube.com/watch?v=NMiEREulVLc)
+- [GraphQL API, basic level](https://www.youtube.com/watch?v=PeAOEAmR0D0)
+- [Overwrtie css of Material UI, part1](https://material-ui.com/ru/customization/components/)
+- [API of Material UI, part2](https://material-ui.com/ru/api/app-bar/)
+- [Type script part1](https://www.youtube.com/watch?v=BwuLxPH8IDs)
+- [Type script part2](https://www.youtube.com/watch?v=rAy_3SIqT-E)
+
+# Tech Info:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,43 +101,3 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
