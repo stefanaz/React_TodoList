@@ -1,6 +1,6 @@
 # Project description
 
-Hey here! This is my test react project to implement all learned skills.
+Hey here! This is my test React project to implement all learned skills.
 This is a simple TODO-list with **no persistent state**.
 
 The first part was aimed **to create React** components while the second one was done in order **to learn Redux** and its integration with React components.
@@ -61,8 +61,8 @@ As learning material were used mainly Youtube videos and in some cases technical
 - [Redux, part2](https://www.youtube.com/watch?v=qrsle5quS7A&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_)
 - [React Hooks](https://www.youtube.com/watch?v=-MlNBTSg_Ww)
 - [Life Cycles](https://www.youtube.com/watch?v=m_mtV4YaI8c)
-- [Dependency injectionm, part1](https://www.youtube.com/watch?v=0X1Ns2NRfks)
-- [Dependency injectionm, part2](https://www.youtube.com/watch?v=sD94szvFqGw)
+- [Dependency injection, part1](https://www.youtube.com/watch?v=0X1Ns2NRfks)
+- [Dependency injection, part2](https://www.youtube.com/watch?v=sD94szvFqGw)
 - [Jest/Unit tests in JS](https://www.youtube.com/watch?v=7r4xVDI2vho)
 - [Styled-components](https://www.youtube.com/watch?v=NMiEREulVLc)
 - [GraphQL API, basic level](https://www.youtube.com/watch?v=PeAOEAmR0D0)
